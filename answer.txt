@@ -1,0 +1,12 @@
+1. 
+git init: khởi tạo git, git bắt đầu nhận diện thư mục 
+git add <file name>: add file <file name> vào vùng staging
+git add . : add tất cả các file đang có vào vùng staging
+git commit -m "message": dán nhãn có lần thay đổi được đẩy lên stag này có tên là "message"
+2.
+a. Tạo 3 file: file1 , file2, file3 thư mục này đang ở trên máy, chưa vào vùng nào cả
+b. git init: khởi tạo đưa 3 file này vào vùng working
+c. git commit -m"init project": sẽ gây lỗi vì chưa chạy lệnh add, đưa file vào vùng stag
+d. git add file1: đưa file1 vào vùng staging
+e. git commit -m"add file1" file 1 vẫn ở vùng stag, file 2, file 3 vẫn ở working
+f, git add file: lỗi vì k có file nào tên là file
