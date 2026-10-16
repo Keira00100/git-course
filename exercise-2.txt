@@ -1,0 +1,4 @@
+git commit --amend: dùng để sửa code và message của commit gần nhất
+git commit --amend-m”<message>” dùng để sửa message mà k cần mở trình soạn thảo
+git restore --staged <file> : nếu lỡ tay add file này vào vùng stag, có thể là quay trở lại vùng working
+git reset HEAD~1.: nếu lỡ commit vào vùng repository trên máy local thì có thể quay về vùng working 

@@ -1,3 +1,4 @@
+
 1. 
 git init: khởi tạo git, git bắt đầu nhận diện thư mục 
 git add <file name>: add file <file name> vào vùng staging
