@@ -1,0 +1,22 @@
+a. Tạo 3 file: file1, file2, file3
+i. Vùng working: ko có gì
+ii. Vùng staging: k
+iii. Vùng repository: k
+b. Chạy lệnh: git init
+i. Vùng working: file1, file2, file3
+ii. Vùng staging: k
+iii. Vùng repository: k
+c. Chạy lệnh: git commit -m”init project”
+báo lỗi vì chưa chạy lệnh add file đã chạy commit
+d. Chạy lệnh: git add file1
+file1 vào vùng stag, file 2, 3 vùng working
+e. Chạy lệnh: git commit -m”add file”
+lỗi vì k tìm thấy file 
+f. Chạy lệnh: git add .
+file 1, 2, 3 ở vùng stag
+g. Chạy lệnh: git restore --staged file2
+file 1,3 staging, file 2 vùng working
+h. Chạy lệnh: git commit -m”add all files”
+file 2 working, file 1, 3 vùng repository
+i. Chạy lệnh: git reset HEAD~1
+file 1,2, 3 ở vùng working
